@@ -1,41 +1,54 @@
-<p>
-I once created a YouTube channel to share some of my life, and even though it didn't take off, it taught me how to teach myself. Every time I repeat something, it sticks more. This is hard, but it’s clicking, and that matters to me. I’m proud to be here, even if I’m still figuring it out.</p>
- </section>
-<ul>
-<li>HTML (In progression)</li>
-<li>Understanding attributes & tage</li><!DOCUMENT html>
-<html>
-  <head>
-    <title>Ria's Digital CV</title>
-  </head>
-  <body>
-    <h1>Ria's Digital Resume CV – Learning & Growing in Real Time </h1>
-<section>
-<p>
-I’m Ria, and starting completely from scratch. I've spent most of my time in the kitchen, cooking and caring for others, but now I’m entering the tech world with zero formal experience , just passion, curiosity, and my own pace. I’ve always loved understanding how things work, and I’m learning HTML step by step, with no shortcuts and no pretending. This digital CV reflets my real journey. HTML-only CV.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marcella Ria Digital CV</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
-<li>Working with Codepen & google Docs</li>
-<section>What I know about attributes</h2>
-<li>Self paced learning through YouTube</li>
-<li>Strong curiosity and persistence</li>
-</ul>
-</section>
-<h2>Real Things I’ve Done</h2>
-<ul>
-<li>Created this HTML Cv from scratch</li>
-<li>Learned how to use the <h1>, <h2> , and paragraph tags to structure a page</li>
-<li> Used the  <img> tag to place images and understand the purpose of ‘src and alt’ </li>
-<li>Learned the difference between <div> and <section> using semantic meaning</li>
-<li>Used the glossary to understand terms like “boilerplate” and “markup”</li>
-<li>discovered file types like JPG, PNG., and GIF</li>
-<li>Started using ID’s HTML attributed, and learned what “Hypertext Markup Language” really means</li>
-<li>Got introduced to entities and curly quotes and how they affect display</li>
-<li>Made mistakes, but kept going until things started to click</li>
+  <header class="header">
+    <img src="profile.jpg" alt="Marcella Ria profile picture" class="profile-pic"/>
+    <h1>Marcella Ria</h1>
+    <p>Email: marcella.ria@example.com | Phone: (555) 123-4567</p>
+  </header>
 
-<p>Attributes give more detail to a tag. I’ve used the <code>src</code> attribute for images, <code>href</code> </code > for links, <code>alt</code> for image description, and <code>lang</code> to set my page’s language to english.</p>
+  <section class="summary">
+    <h2>Summary</h2>
+    <p>A passionate and creative web developer with strong foundational skills in HTML, CSS, and JavaScript. Enthusiastic about building user-friendly websites and growing in the tech industry.</p>
+  </section>
 
-<footer>
-<p>Created with love by Ria</p>
+  <section class="education">
+    <h2>Education</h2>
+    <p>Springboard Software Engineering Career Track<br/>Expected Graduation: November 2025</p>
+  </section>
+
+  <section class="skills">
+    <h2>Technologies</h2>
+    <ul>
+      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Databases:</strong> PostgreSQL, MongoDB</li>
+      <li><strong>Testing:</strong> Jest</li>
+      <li><strong>Other:</strong> Git, GitHub, VS Code</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Twitter Clone</li>
+      <li>Lucky Numbers Game</li>
+      <li>Star Wars Data Explorer</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Let's connect and discuss more about software engineering!</p>
+    <p>GitHub: <a href="https://github.com/ria1985-creator" target="_blank">ria1985-creator</a></p>
+    <p>Learn more about my journey with Springboard.</p>
+  </section>
+
 </body>
 </html>
