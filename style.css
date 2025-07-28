@@ -1,105 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Marcella Ria Digital CV</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+/* Reset & Box Model Setup */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  <header class="header">
-    <img src="profile.jpg" alt="Marcella Ria profile picture" class="profile-pic" />!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Marcella Ria Digital CV</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Soft neutral background */
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  <header class="header">
-    <img src="profile.jpg" alt="Marcella Ria profile picture" class="profile-pic"/>
-    <h1>Marcella Ria</h1>
-    <p>Email: Ria062685@Gmail.com | Phone: (216) 650-2403</p>
-  </header>
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
 
-  <section class="summary">
-    <h2>Summary</h2>
-    <p>A passionate and creative web developer with strong foundational skills in HTML, CSS, and JavaScript. Enthusiastic about building user-friendly websites and growing in the tech industry.</p>
-  </section>
+/* Profile Picture */
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #444;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+}
 
-  <section class="education">
-    <h2>Education</h2>
-    <p>Springboard Software Engineering Career Track<br/>Expected Graduation: November 2025</p>
-  </section>
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
 
-  <section class="skills">
-    <h2>Technologies</h2>
-    <ul>
-      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
-      <li><strong>Databases:</strong> PostgreSQL, MongoDB</li>
-      <li><strong>Testing:</strong> Jest</li>
-      <li><strong>Other:</strong> Git, GitHub, VS Code</li>
-    </ul>
-  </section>
+.tagline {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 10px;
+}
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>Twitter Clone</li>
-      <li>Lucky Numbers Game</li>
-      <li>Star Wars Data Explorer</li>
-    </ul>
-  </section>
+.contact {
+  font-size: 0.9rem;
+  color: #333;
+}
 
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Let's connect and discuss more about software engineering!</p>
-    <p>GitHub: <a href="https://github.com/ria1985-creator" target="_blank">ria1985-creator</a></p>
-    <p>Learn more about my journey with Springboard.</p>
-  </section>
+/* Section Styling */
+section {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 8px;
+}
 
-</body>
-</html>
-    <h1>Marcella Ria</h1>
-    <p>Email: Ria062685@gmail.com | Phone: (216) 650-2403</p>
-  </header>
+h2 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
 
-  <section class="summary">
-    <h2>Summary</h2>
-    <p>A passionate and creative web developer with strong foundational skills in HTML, CSS, and JavaScript. Enthusiastic about building user-friendly websites and growing in the tech industry.</p>
-  </section>
+ul {
+  padding-left: 20px;
+}
 
-  <section class="education">
-    <h2>Education</h2>
-    <p>Springboard Software Engineering Career Track<br/>Expected Graduation: November 2025</p>
-  </section>
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
 
-  <section class="skills">
-    <h2>Technologies</h2>
-    <ul>
-      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
-      <li><strong>Other:</strong> Git, GitHub, VS Code</li>
-    </ul>
-  </section>
+a:hover {
+  text-decoration: underline;
+}
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>Twitter Clone</li>
-      <li>Lucky Numbers Game</li>
-      <li>Star Wars Data Explorer</li>
-    </ul>
-  </section>
-
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Let's connect and discuss more about software engineering!</p>
-    <p>GitHub: <a href="https://github.com/ria1985-creator" target="_blank">ria1985-creator</a></p>
-    <p>Learn more about my journey with Springboard.</p>
-  </section>
-
-</body>
-</html>
+/* Remove outline from form elements */
+:focus {
+  outline: none;
+  .profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #444;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+}
+  
+}
