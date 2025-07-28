@@ -1,0 +1,41 @@
+<p>
+I once created a YouTube channel to share some of my life, and even though it didn't take off, it taught me how to teach myself. Every time I repeat something, it sticks more. This is hard, but it’s clicking, and that matters to me. I’m proud to be here, even if I’m still figuring it out.</p>
+ </section>
+<ul>
+<li>HTML (In progression)</li>
+<li>Understanding attributes & tage</li><!DOCUMENT html>
+<html>
+  <head>
+    <title>Ria's Digital CV</title>
+  </head>
+  <body>
+    <h1>Ria's Digital Resume CV – Learning & Growing in Real Time </h1>
+<section>
+<p>
+I’m Ria, and starting completely from scratch. I've spent most of my time in the kitchen, cooking and caring for others, but now I’m entering the tech world with zero formal experience , just passion, curiosity, and my own pace. I’ve always loved understanding how things work, and I’m learning HTML step by step, with no shortcuts and no pretending. This digital CV reflets my real journey. HTML-only CV.
+</p>
+
+<li>Working with Codepen & google Docs</li>
+<section>What I know about attributes</h2>
+<li>Self paced learning through YouTube</li>
+<li>Strong curiosity and persistence</li>
+</ul>
+</section>
+<h2>Real Things I’ve Done</h2>
+<ul>
+<li>Created this HTML Cv from scratch</li>
+<li>Learned how to use the <h1>, <h2> , and paragraph tags to structure a page</li>
+<li> Used the  <img> tag to place images and understand the purpose of ‘src and alt’ </li>
+<li>Learned the difference between <div> and <section> using semantic meaning</li>
+<li>Used the glossary to understand terms like “boilerplate” and “markup”</li>
+<li>discovered file types like JPG, PNG., and GIF</li>
+<li>Started using ID’s HTML attributed, and learned what “Hypertext Markup Language” really means</li>
+<li>Got introduced to entities and curly quotes and how they affect display</li>
+<li>Made mistakes, but kept going until things started to click</li>
+
+<p>Attributes give more detail to a tag. I’ve used the <code>src</code> attribute for images, <code>href</code> </code > for links, <code>alt</code> for image description, and <code>lang</code> to set my page’s language to english.</p>
+
+<footer>
+<p>Created with love by Ria</p>
+</body>
+</html>
